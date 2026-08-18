@@ -28,7 +28,7 @@ body{
     width: 100%;
 }
 .logo:hover{
-    height: 48x;
+    height: 48px;
     width: 100%;
 }
 .border{
@@ -198,7 +198,7 @@ span{
     
 }
 .box:hover{
-    height: 402x;
+    height: 402px;
     width: 21.2%;
     background-color:rgb(255, 166, 0);
     padding: 10px 0px 20px 0px;
@@ -271,3 +271,504 @@ h1{
     font-size:0.8rem;
 
 }
+
+
+@media (max-width: 400px) {
+
+    /* NAVBAR */
+    .navbar {
+        height: auto;
+        min-height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .nav-logo {
+        width: 80px;
+        height: 45px;
+    }
+
+    .logo {
+        height: 45px;
+    }
+
+    .add-first {
+        font-size: 0.5rem;
+        margin-left: 5px;
+    }
+
+    .add-second {
+        font-size: 10px;
+    }
+
+    /* SEARCH */
+    .nav-search {
+        order: 5;
+        width: 100%;
+        height: 38px;
+    }
+
+    .select-all {
+        width: 45px;
+        height: 38px;
+        font-size: 0.8rem;
+    }
+
+    .input-search {
+        width: 100%;
+        min-width: 0;
+        height: 38px;
+        font-size: 0.9rem;
+    }
+
+    .icon-search {
+        width: 40px;
+        height: 38px;
+    }
+
+    .nav-first,
+    .nav-second {
+        font-size: 10px;
+    }
+
+    .nav-cart-icon {
+        font-size: 20px;
+    }
+
+    .nav-cart-first {
+        font-size: 0.5rem;
+    }
+
+
+    /* SECOND NAVIGATION */
+    .nav-panel {
+        height: auto;
+        min-height: 35px;
+        padding: 5px;
+        overflow: hidden;
+    }
+
+    .nav-panel-opt {
+        width: auto;
+        gap: 10px;
+        font-size: 0.55rem;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .nav-panel-right {
+        font-size: 0.6rem;
+        white-space: nowrap;
+    }
+
+
+    /* HERO */
+    .hero-section {
+        height: 220px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-msg {
+        width: 92%;
+        height: auto;
+        min-height: 35px;
+        bottom: 15px;
+        font-size: 0.55rem;
+        padding: 5px;
+        text-align: center;
+    }
+
+
+    /* SHOP SECTION */
+    .shop-section {
+        width: 100%;
+        padding: 5px;
+        gap: 10px;
+        row-gap: 15px;
+    }
+
+    /* 2 BOXES PER ROW */
+    .box {
+        width: 47%;
+        height: 300px;
+        padding: 8px;
+    }
+
+    .box:hover {
+        width: 47%;
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 1rem;
+        margin-left: 3px;
+    }
+
+    .box-img {
+        width: 100%;
+        height: 210px;
+        margin-left: 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box > p {
+        font-size: 0.65rem;
+        margin-left: 3px;
+        padding-top: 5px;
+    }
+
+
+    /* FOOTER */
+    .fotter1 {
+        height: 40px;
+        margin-top: 15px;
+        font-size: 0.65rem;
+    }
+
+    .fotter2 {
+        height: auto;
+        min-height: 400px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 25px 10px;
+        gap: 20px;
+    }
+
+    .fotter2 ul {
+        width: 45%;
+    }
+
+    .fotter2 p {
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+
+    .fotter2 a {
+        font-size: 11px;
+        margin-bottom: 7px;
+    }
+
+    .fotter3 {
+        height: 45px;
+        font-size: 0.65rem;
+    }
+}
+
+
+@media (min-width: 401px) and (max-width: 768px) {
+
+    /* =========================
+       NAVBAR
+    ========================= */
+
+    .navbar {
+        height: auto;
+        min-height: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 5px 10px;
+        gap: 8px;
+    }
+
+    .nav-logo {
+        width: 90px;
+        height: 50px;
+    }
+
+    .logo {
+        height: 50px;
+        width: 100%;
+    }
+
+    .add-first {
+        font-size: 0.55rem;
+        margin-left: 8px;
+    }
+
+    .add-second {
+        font-size: 12px;
+    }
+
+
+    /* SEARCH */
+
+    .nav-search {
+        order: 5;
+        width: 100%;
+        height: 40px;
+    }
+
+    .select-all {
+        width: 50px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .input-search {
+        width: 100%;
+        min-width: 0;
+        height: 40px;
+        font-size: 1rem;
+    }
+
+    .icon-search {
+        width: 45px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+
+    .nav-first,
+    .nav-second {
+        font-size: 12px;
+    }
+
+    .nav-cart-icon {
+        font-size: 23px;
+    }
+
+    .nav-cart-first {
+        font-size: 0.6rem;
+    }
+
+
+    /* =========================
+       SECOND NAVIGATION
+    ========================= */
+
+    .nav-panel {
+        height: 38px;
+        padding: 0 8px;
+        overflow: hidden;
+    }
+
+    .nav-panel-opt {
+        width: 70%;
+        gap: 15px;
+        font-size: 0.65rem;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .nav-panel-right {
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+
+
+    /* =========================
+       HERO
+    ========================= */
+
+    .hero-section {
+        height: 280px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-msg {
+        width: 92%;
+        height: 35px;
+        bottom: 20px;
+        font-size: 0.7rem;
+        padding: 5px;
+        text-align: center;
+    }
+
+
+    /* =========================
+       SHOP SECTION
+    ========================= */
+
+    .shop-section {
+        width: 100%;
+        padding: 10px;
+        gap: 15px;
+        row-gap: 20px;
+    }
+
+
+    /* 3 BOXES PER ROW */
+
+    .box {
+        width: 30%;
+        height: 350px;
+        padding: 10px;
+    }
+
+    .box:hover {
+        width: 30%;
+        height: 350px;
+    }
+
+    h1 {
+        font-size: 1.1rem;
+        margin-left: 3px;
+    }
+
+    .box-img {
+        width: 100%;
+        height: 250px;
+        margin-left: 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .box > p {
+        font-size: 0.7rem;
+        margin-left: 3px;
+        padding-top: 7px;
+    }
+
+
+    /* =========================
+       FOOTER
+    ========================= */
+
+    .fotter1 {
+        height: 45px;
+        margin-top: 20px;
+        font-size: 0.7rem;
+    }
+
+    .fotter2 {
+        height: auto;
+        min-height: 350px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 30px 15px;
+        gap: 25px;
+    }
+
+    .fotter2 ul {
+        width: 22%;
+    }
+
+    .fotter2 p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .fotter2 a {
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+
+    .fotter3 {
+        height: 45px;
+        font-size: 0.7rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    /* NAVBAR */
+
+    .navbar{
+        padding: 0 10px;
+    }
+
+    .nav-logo{
+        width: 90px;
+    }
+
+    .input-search{
+        width: 350px;
+    }
+
+    .nav-first,
+    .nav-second{
+        font-size: 12px;
+    }
+
+
+    /* NAV PANEL */
+
+    .nav-panel-opt{
+        width: 65%;
+        gap: 15px;
+        font-size: 0.7rem;
+    }
+
+    .nav-panel-right{
+        font-size: 0.8rem;
+    }
+
+
+    /* HERO */
+
+    .hero-section{
+        height: 300px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-msg{
+        width: 95%;
+        font-size: 0.8rem;
+    }
+
+
+    /* SHOP SECTION */
+
+    .shop-section{
+        gap: 15px;
+        padding: 10px;
+    }
+
+    /* 4 BOXES PER ROW */
+
+    .box{
+        width: 23%;
+        height: 360px;
+        padding: 10px;
+    }
+
+    .box:hover{
+        width: 23%;
+        height: 360px;
+    }
+
+    .box-img{
+        width: 100%;
+        height: 240px;
+        margin-left: 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1{
+        font-size: 1.1rem;
+        margin-left: 3px;
+    }
+
+    .box > p{
+        font-size: 0.75rem;
+        margin-left: 3px;
+    }
+
+
+    /* FOOTER */
+
+    .fotter2{
+        padding: 30px 15px;
+    }
+
+    .fotter2 ul{
+        width: 180px;
+    }
+
+    .fotter2 p{
+        font-size: 15px;
+    }
+
+    .fotter2 a{
+        font-size: 13px;
+    }
+}
+
